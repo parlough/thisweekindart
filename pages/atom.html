@@ -4,8 +4,8 @@ data:
   hidden: true
 ---
 <?xml version="1.0"?>
-{% assign section = 'issues/index.html' | sectionOf %}
-{% assign children = section.pages | sortedByWeight  %}
+{%- assign section = 'issues/index.html' | sectionOf -%}
+{%- assign children = section.pages | sortedByWeight -%}
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>This Week in Dart</title>
   <author><name>Parker Lougheed</name></author>
@@ -17,9 +17,9 @@ data:
   </rights>
   <updated>{{ built_site.config.build_time | default: (site.last_updated | append: 'T00:00:00Z') }}</updated>
 
-  {% for child in children %}
-    {% if child != section.index %}
-      {% assign page = child | pageInfo %}
+  {%- for child in children -%}
+    {%- if child != section.index -%}
+      {%- assign page = child | pageInfo %}
       <entry>
         <title>{{ page.data.title }}</title>
         <link rel="alternate" type="text/html" href="{{ child | pageUrl }}" />
@@ -27,6 +27,6 @@ data:
         <summary type="text">{{ page.data.description | default: page.data.title }}</summary>
         <updated>{{ page.data.date }}T00:00:00Z</updated>
       </entry>
-    {% endif %}
+    {%- endif -%}
   {% endfor %}
 </feed>
