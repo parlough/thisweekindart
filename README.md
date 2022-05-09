@@ -37,5 +37,15 @@ To then copy generated contents into the desired directory, use:
 dart run build_runner build --release --output web:_site
 ```
 
+## License and disclaimers
+
+Except as otherwise noted, the textual contents of this project are licensed
+under the [Creative Commons Attribution 4.0 License][],
+and code and code samples are licensed under the MIT License.
+See more in the [LICENSE][] file.
+
 _Dart and the related logo are trademarks of Google LLC. 
 This Week in Dart is not endorsed by or affiliated with Google LLC._
+
+[Creative Commons Attribution 4.0 License]: http://creativecommons.org/licenses/by/4.0/
+[LICENSE]: https://github.com/parlough/thisweekindart/blob/main/LICENSE
