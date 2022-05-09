@@ -36,3 +36,6 @@ To then copy generated contents into the desired directory, use:
 ```shell
 dart run build_runner build --release --output web:_site
 ```
+
+_Dart and the related logo are trademarks of Google LLC. 
+This Week in Dart is not endorsed by or affiliated with Google LLC._
