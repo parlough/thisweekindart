@@ -138,8 +138,8 @@ on our [quotes discussion board][] for future inclusion!
 
 ## Dart jobs
 
-The following are some jobs will provide you the opportunity
-to use or even build Dart.
+The following are some jobs that will provide you the opportunity
+to use or even build Dart. 
 
 If you know of any jobs which use or are related to Dart,
 let us know in the [Job postings for Dart][] discussion board.
