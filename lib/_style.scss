@@ -184,7 +184,7 @@ a {
 }
 
 #footer-content {
-  min-height: 6rem;
+  min-height: 7rem;
   padding: 1rem;
   background-color: var(--secondary-container-color);
   border-radius: 1rem;
@@ -210,7 +210,7 @@ ul {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 0 0 .5rem;
 
   li {
     margin: 0 .75rem;
@@ -219,6 +219,11 @@ ul {
       color: var(--on-secondary-container-color);
     }
   }
+}
+
+#disclaimer {
+  font-size: .75rem;
+  font-style: italic;
 }
 
 #issues-index {
