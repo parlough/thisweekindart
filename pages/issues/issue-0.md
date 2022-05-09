@@ -3,7 +3,7 @@ template: layouts/issue
 
 data:
   date: 2022-05-09
-  title: This Week in Dart 0
+  title: This Week in Dart - Issue 0
   description: The inaugural issue of This Week in Dart!
   weight: 0
 ---
