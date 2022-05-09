@@ -30,7 +30,7 @@ on the [Unofficial Dart Community Discord](https://discord.gg/Qt6DgfAWWx).
     {% assign section = 'issues/index.html' | sectionOf %}
     {% assign children = section.children | concat: section.pages | sortedByWeight  %}
     {% assign i = 1 %}
-    {% for child in children reversed %}
+    {% for child in children | reverse %}
     {% if child == section.index %}
     {% continue %}
     {% endif %}

@@ -1,0 +1,32 @@
+---
+path: atom.xml
+data:
+  hidden: true
+---
+<?xml version="1.0"?>
+{% assign section = 'issues/index.html' | sectionOf %}
+{% assign children = section.pages | sortedByWeight  %}
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>This Week in Dart</title>
+  <author><name>Parker Lougheed</name></author>
+  <link type="application/atom+xml" rel="self" href="{{ '' | pageUrl }}"/>
+  <id>{{ '' | pageUrl }}</id>
+  <contributor><name>This Week in Dart contributors</name></contributor>
+  <rights type="html">
+    Made available by Parker Lougheed and Contributors under the &lt;a href=&quot;http://creativecommons.org/licenses/by/4.0/&quot;&gt;Creative Commons Attribution 4.0 License&lt;/a&gt;
+  </rights>
+  <updated>{{ built_site.config.build_time | default: (site.last_updated | append: 'T00:00:00Z') }}</updated>
+
+  {% for child in children %}
+    {% if child != section.index %}
+      {% assign page = child | pageInfo %}
+      <entry>
+        <title>{{ page.data.title }}</title>
+        <link rel="alternate" type="text/html" href="{{ child | pageUrl }}" />
+        <id>{{ child | pageUrl }}</id>
+        <summary type="text">{{ page.data.description | default: page.data.title }}</summary>
+        <updated>{{ page.data.date }}T00:00:00Z</updated>
+      </entry>
+    {% endif %}
+  {% endfor %}
+</feed>

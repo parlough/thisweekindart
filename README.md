@@ -37,6 +37,9 @@ To then copy generated contents into the desired directory, use:
 dart run build_runner build --release --output web:_site
 ```
 
+Or, just run `dart run tool/build.dart` which takes care of this for you and
+also includes the current time in the atom feed.
+
 ## License and disclaimers
 
 Except as otherwise noted, the textual contents of this project are licensed
