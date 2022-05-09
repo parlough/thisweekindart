@@ -16,10 +16,8 @@ jobs:
       - uses: dart-lang/setup-dart@v1.3
       - name: Get dependencies
         run: dart pub get
-      - name: Run initial build
-        run: dart run build_runner build --release
-      - name: Copy into output directory
-        run: dart run build_runner build --release --output web:_site
+      - name: Build website
+        run: dart run tool/build.dart
       - uses: FirebaseExtended/action-hosting-deploy@v0
         if: ${{ github.event_name == 'push' &&
           github.ref == 'refs/heads/main' &&

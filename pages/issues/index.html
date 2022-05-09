@@ -20,7 +20,7 @@ in reverse historical order.
     {% assign section = page_section %}
     {% assign children = section.children | concat: section.pages | sortedByWeight %}
 
-    {% for child in children reversed %}
+    {% for child in children | reverse %}
     {% if child == section.index %}
     {% continue %}
     {% endif %}

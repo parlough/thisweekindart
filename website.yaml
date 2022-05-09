@@ -1,7 +1,13 @@
+site:
+  # Note: This serves as a default value for the last update timestamp. Builds
+  # need to be deterministic, so we can't emit `DateTime.now()` into generated
+  # files. We pass a build option via `--define=built_site=build_time=<now>`.
+  last_updated: "2022-05-09"
+
 environments:
   dev:
     minify: false
     base_url: "http://localhost:8080/"
   prod:
     minify: true
-    base_url: ""
+    base_url: "https://thisweekindart.dev"
