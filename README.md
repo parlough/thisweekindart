@@ -47,5 +47,5 @@ See more in the [LICENSE][] file.
 _Dart and the related logo are trademarks of Google LLC. 
 This Week in Dart is not endorsed by or affiliated with Google LLC._
 
-[Creative Commons Attribution 4.0 License]: http://creativecommons.org/licenses/by/4.0/
+[Creative Commons Attribution 4.0 License]: https://creativecommons.org/licenses/by/4.0/
 [LICENSE]: https://github.com/parlough/thisweekindart/blob/main/LICENSE
