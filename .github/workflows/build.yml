@@ -21,6 +21,9 @@ jobs:
       - name: Copy into output directory
         run: dart run build_runner build --release --output web:_site
       - uses: FirebaseExtended/action-hosting-deploy@v0
+        if: ${{ github.event_name == 'push' &&
+          github.ref == 'refs/heads/main' &&
+          github.repository == 'parlough/thisweekindart' }}
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_THISWEEKINDART }}'
