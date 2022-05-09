@@ -4,7 +4,7 @@ template: layouts/issue
 data:
   date: 2022-05-09
   title: This Week in Dart 0
-  description: The inaugural issue of This Week in Dart
+  description: The inaugural issue of This Week in Dart!
   weight: 0
 ---
 
@@ -19,6 +19,7 @@ or suggest content for next week on [GitHub discussions][].
 
 To discuss this week's issue,
 feel free to join us on the [Unofficial Dart Community Discord][].
+
 
 ## Announcements
 
@@ -76,6 +77,7 @@ The following are some handpicked, interesting changes.
 _Keep in mind, none of these changes are guaranteed to
 eventually land in a stable release._
 
+
 ## Packages of the week
 
 The package of the week is [**Zap**](https://pub.dev/packages/zap)!
@@ -84,7 +86,7 @@ Zap is a reactive web framework built on Dart.
 By compiling HTML-like files to Dart components, 
 Zap makes it easy to write efficient web apps.
 
-Dart's package ecosystem is slowly growing
+Dart's package ecosystem is growing fast,
 and we want to help foster that growth.
 If you know of any great open source projects,
 let us know by [suggesting a package][] on GitHub discussions.
@@ -133,10 +135,12 @@ the [events discussion board][].
 Share quotes and comments you see and hear about Dart
 on our [quotes discussion board][] for future inclusion!
 
+
 ## Dart jobs
 
 The following are some jobs will provide you the opportunity
 to use or even build Dart.
+
 If you know of any jobs which use or are related to Dart,
 let us know in the [Job postings for Dart][] discussion board.
 
@@ -156,6 +160,7 @@ let us know in the [Job postings for Dart][] discussion board.
 ### Superlist
 
 - [Senior Flutter (Desktop) Developer](https://superlist.recruitee.com/o/senior-flutter-desktop-developer-mfd)
+
 
 [Google I/O 2022]: https://io.google/2022
 [Flutter Meetup Network]: https://www.meetup.com/pro/flutter
