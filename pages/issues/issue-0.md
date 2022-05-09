@@ -161,7 +161,7 @@ let us know in the [Job postings for Dart][] discussion board.
 
 ### Superlist
 
-- [Senior Flutter (Desktop) Developer](https://superlist.recruitee.com/o/senior-flutter-desktop-developer-mfd)
+- [Senior Flutter (Desktop) Developer (Remote)](https://superlist.recruitee.com/o/senior-flutter-desktop-developer-mfd)
 
 
 [Google I/O 2022]: https://io.google/2022
