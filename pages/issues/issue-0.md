@@ -78,7 +78,7 @@ _Keep in mind, none of these changes are guaranteed to
 eventually land in a stable release._
 
 
-## Packages of the week
+## Package of the week
 
 The package of the week is [**Zap**](https://pub.dev/packages/zap)!
 
