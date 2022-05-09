@@ -115,6 +115,15 @@ h4 {
   font-size: 1.125rem;
 }
 
+code {
+  font-size: 1.125rem;
+  font-family: 'Roboto Mono', monospace;
+  padding: .0625rem .125rem;
+  border-radius: .25rem;
+  background-color: var(--surface-variant-color);
+  color: var(--on-surface-variant-color);
+}
+
 #page-content {
   margin-top: 1rem;
 }
