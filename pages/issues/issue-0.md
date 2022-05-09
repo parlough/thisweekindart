@@ -26,7 +26,8 @@ feel free to join us on the [Unofficial Dart Community Discord][].
 Google I/O will be this week, May 11-12, available to stream online.
 This year will see 
 keynotes, product announcements, and learning lab content released on day one, 
-with technical sessions available on-demand on day two.
+with technical sessions available on-demand on day two. 
+
 Dart will have a large presence
 in the form of keynotes, talks, and workshops around Flutter.
 To learn more and register, check out [Google I/O 2022][].
