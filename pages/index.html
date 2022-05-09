@@ -1,0 +1,45 @@
+---
+template: layouts/main
+path: ""
+---
+
+{% block "blocks/markdown" %}
+# Your weekly home for Dart news
+
+**This Week in Dart** is the go-to destination
+for news on Dart, its package ecosystem, and the surrounding community.
+
+We aim to increase awareness of ongoing changes and news surrounding Dart
+while fostering a strong sense of community for those interested.
+
+To contribute this website and future issues,
+feel free to contribute on [GitHub](https://github.com/parlough/thisweekindart)
+or suggest content for next week
+on [GitHub discussions](https://github.com/parlough/thisweekindart/discussions).
+
+To discuss Dart or This Week in Dart,
+feel free to join us
+on the [Unofficial Dart Community Discord](https://discord.gg/Qt6DgfAWWx).
+
+---
+## Previous issues
+
+{% endblock %}
+
+<div id="issues-index">
+    {% assign section = 'issues/index.html' | sectionOf %}
+    {% assign children = section.children | concat: section.pages | sortedByWeight  %}
+    {% assign i = 1 %}
+    {% for child in children reversed %}
+    {% if child == section.index %}
+    {% continue %}
+    {% endif %}
+    {% assign page = child.index | default: child | pageInfo %}
+    {% include "partials/issue-index-item.html" %}
+    {% endfor %}
+</div>
+
+{% block "blocks/markdown" %}
+
+### [See more previous issues...](/issues/)
+{% endblock %}

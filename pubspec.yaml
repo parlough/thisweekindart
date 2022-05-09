@@ -1,0 +1,15 @@
+name: thisweekindart
+description: thisweekindart.dev
+publish_to: none
+
+environment:
+  sdk: '>=2.16.0 <3.0.0'
+
+dev_dependencies:
+  build: ^2.3.0
+  build_runner: ^2.1.10
+  build_web_compilers: ^3.2.3
+  built_site:
+    hosted: https://simonbinder.eu
+    version: ^0.2.5
+  webdev: ^2.7.8

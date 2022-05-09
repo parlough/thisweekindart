@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+    {% include "partials/head.html" %}
+    <body>
+        {% include "partials/navbar.html" %}
+
+        <main id="page-content" class="page-center">
+            <article id="content">
+                <header id="post-header">
+                    <h1>{{page.title}}</h1>
+                    <time datetime="{{ page.date }}">{{ page.date }}</time>
+                </header>
+                {{ page.content }}
+            </article>
+        </main>
+
+        {% include "partials/footer.html" %}
+    </body>
+</html>

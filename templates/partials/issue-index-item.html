@@ -1,0 +1,8 @@
+<div>
+    <h2>
+        <a href="{{ page.path | relUrl }}">{{ page.data.title }}</a>
+    </h2>
+    {% if page.data.date %}
+    <time datetime="{{ page.data.date }}">{{ page.data.date }}</time>
+    {% endif %}
+</div>

@@ -1,0 +1,30 @@
+---
+template: layouts/main
+
+data:
+    title: "This Week in Dart issues"
+    description: "All issues of This Week in Dart"
+---
+
+{% block "blocks/markdown" %}
+# Previous issues
+
+The following is a list of all previous issues
+of This Week in Dart
+in reverse historical order.
+
+---
+{% endblock %}
+
+<div id="issues-index">
+    {% assign section = page_section %}
+    {% assign children = section.children | concat: section.pages | sortedByWeight %}
+
+    {% for child in children reversed %}
+    {% if child == section.index %}
+    {% continue %}
+    {% endif %}
+    {% assign page = child.index | default: child | pageInfo %}
+    {% include "partials/issue-index-item.html" %}
+    {% endfor %}
+</div>

@@ -1,0 +1,15 @@
+.dart_tool
+.DS_Store
+.env*
+.firebase
+.idea
+.spelling
+.vscode
+*.iml
+build
+node_modules
+pubspec.lock
+.packages
+
+_site
+out

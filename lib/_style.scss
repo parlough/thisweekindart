@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #195bb9;
+  --on-primary-color: #ffffff;
+
+  --secondary-color: #575e71;
+  --on-secondary-color: #ffffff;
+
+  --tertiary-color: #715573;
+  --on-tertiary-color: #ffffff;
+
+  --error-color: #ba1b1b;
+  --on-error-color: #ffffff;
+
+  --background-color: #fdfbff;
+  --on-background-color: #1b1b1e;
+
+  --outline-color: #74777f;
+
+  --primary-container-color: #d6e2ff;
+  --on-primary-container-color: #001a43;
+
+  --secondary-container-color: #dbe2f9;
+  --on-secondary-container-color: #141b2c;
+
+  --tertiary-container-color: #fbd7fb;
+  --on-tertiary-container-color: #29132d;
+
+  --error-container-color: #ffdad4;
+  --on-error-container-color: #410001;
+
+  --surface-color: #fdfbff;
+  --on-surface-color: #1b1b1e;
+
+  --surface-variant-color: #e1e2ec;
+  --on-surface-variant-color: #44474f
+}
+
+:root[theme="dark"] {
+  --primary-color: #acc7ff;
+  --on-primary-color: #002e6c;
+
+  --secondary-color: #bfc6dc;
+  --on-secondary-color: #283041;
+
+  --tertiary-color: #debbdf;
+  --on-tertiary-color: #402843;
+
+  --error-color: #ffb4a9;
+  --on-error-color: #680003;
+
+  --background-color: #1b1b1e;
+  --on-background-color: #e4e2e6;
+
+  --outline-color: #8e9099;
+
+  --primary-container-color: #004397;
+  --on-primary-container-color: #d6e2ff;
+
+  --secondary-container-color: #3f4759;
+  --on-secondary-container-color: #dbe2f9;
+
+  --tertiary-container-color: #583e5b;
+  --on-tertiary-container-color: #fbd7fb;
+
+  --error-container-color: #930006;
+  --on-error-container-color: #ffdad4;
+
+  --surface-color: #1b1b1e;
+  --on-surface-color: #e4e2e6;
+
+  --surface-variant-color: #44474f;
+  --on-surface-variant-color: #c4c6d0;
+}
+
+html {
+  font-size: 100%;
+  background-color: var(--background-color);
+  color: var(--on-background-color);
+}
+
+body {
+  font-family: 'Roboto Flex', ui-sans-serif, system-ui, Roboto, sans-serif;
+  font-size: 1.250rem;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, dl {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+#page-content {
+  margin-top: 1rem;
+}
+
+.page-center {
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  max-width: 640px;
+}
+
+#content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+#site-header {
+  min-height: 4rem;
+  max-height: 8rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--secondary-container-color);
+  color: var(--on-secondary-container-color);
+}
+
+#site-header-content {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#site-title {
+  color: var(--primary-color);
+
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#post-header {
+  h1 {
+    margin-bottom: 0;
+  }
+
+  time {
+    font-size: 1rem;
+  }
+
+  margin-bottom: 1rem;
+}
+
+#site-footer {
+  display: flex;
+  justify-content: center;
+}
+
+#footer-content {
+  min-height: 6rem;
+  padding: 1rem;
+  background-color: var(--secondary-container-color);
+  border-radius: 1rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 1rem;
+
+  color: var(--on-secondary-container-color);
+}
+
+ul {
+  margin: 1rem 2rem;
+  padding: 0;
+  list-style-type: square;
+}
+
+#footer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+
+  li {
+    margin: 0 .75rem;
+
+    a {
+      color: var(--on-secondary-container-color);
+    }
+  }
+}
+
+#issues-index {
+  h2 {
+    margin-bottom: 0;
+  }
+
+  time {
+    font-size: 1.125rem;
+  }
+}
+
+#theme-switcher {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--primary-color);
+  border-radius: .5rem;
+}
+
+figure.quote {
+  margin: 1rem 0;
+}
+
+blockquote {
+  margin: 0;
+
+  p {
+    padding: .5rem;
+    background-color: var(--surface-variant-color);
+    color: var(--on-surface-variant-color);
+    border-radius: .25rem;
+    margin-bottom: .25rem;
+
+    &::before {
+      content: '\201C';
+    }
+
+    &:after {
+      content: '\201D';
+    }
+  }
+}
+
+cite {
+  font-style: normal;
+}

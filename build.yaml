@@ -1,0 +1,15 @@
+targets:
+  $default:
+    sources:
+      include:
+        - "lib/**"
+        - "pages/**"
+        - "templates/**"
+        - "web/**"
+        - "tool/**"
+        - "$package$"
+        - "pubspec.yaml"
+        - "theme.yaml"
+        - "website.yaml"
+      exclude:
+        - "pages/**/_*"

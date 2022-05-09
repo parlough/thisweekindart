@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include "partials/head.html" %}
+    <body>
+        {% include "partials/navbar.html" %}
+
+        <main id="page-content" class="page-center">
+            <div id="content">
+                {{ page.content }}
+            </div>
+        </main>
+
+        {% include "partials/footer.html" %}
+    </body>
+</html>
