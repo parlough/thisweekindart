@@ -2,14 +2,14 @@
 template: layouts/issue
 
 data:
-  date: 2022-05-15
+  date: 2022-05-16
   title: This Week in Dart 1
-  description: The second issue of This Week in Dart.
+  description: The second issue of This Week in Dart, I/O edition!
   weight: 1
 ---
 
 Hello fellow Dartisans!
-Welcome to the inaugural issue of _This Week in Dart_!
+Welcome to the second issue of _This Week in Dart_!
 _This Week in Dart's_ aim is to be a useful collection of changes and news
 from across the Dart ecosystem and its surrounding community.
 
@@ -20,7 +20,116 @@ or suggest content for next week on [GitHub discussions][].
 To discuss this week's issue,
 feel free to join us on the [Unofficial Dart Community Discord][].
 
+## Announcements
+
+This was an especially busy week for Dart as
+Google I/O was this past week, May 11-12, available to stream online.
+
+This year saw a lot of interesting content and announcements for developers
+using Google products or services, including Dart 2.17 and Flutter 3.
+
+To catch up with the Dart and Flutter announcements and learning materials,
+see the [Flutter page][flutter-io] on the [Google I/O 2022][] site.
+
+[flutter-io]: https://io.google/2022/products/flutter/
 [Google I/O 2022]: https://io.google/2022
+
+## Community updates
+
+### Official
+
+* [Dart 2.17: Productivity and integration](https://medium.com/dartlang/dart-2-17-b216bfc80c5d)
+* [Introducing Flutter 3](https://medium.com/flutter/introducing-flutter-3-5eb69151622f)
+* [What’s new in Flutter 3](https://medium.com/flutter/whats-new-in-flutter-3-8c74a5bc32d0)
+* [Announcing the Flutter Casual Games Toolkit](https://medium.com/flutter/announcing-the-flutter-casual-games-toolkit-c22e401d8fee)
+
+### Discussions
+
+* [Filip reacts to Flutter 3 announcements at I/O](https://www.youtube.com/watch?v=MEYQUhJdv9c&t=2161s)
+
+### Learning materials
+
+* [Flutter Concurrency: When, why, and how to multithread in Flutter](https://io.google/2022/program/5b1811d3-3bcb-4d30-b2a1-a098225029a7/)
+
+### Project updates
+
+
+## Dart SDK updates
+
+X unique authors have contributed
+[X commits][commit range]
+to the Dart SDK in the past week.
+
+[commit range]: https://github.com/dart-lang/sdk/compare/630302b710c378c04ef234867da58c85087a8b81...748ee46cf4710e3a9e45fa376db0164492e8f020
+
+The following are some handpicked, interesting changes.
+
+* TODO
+* TODO
+
+_Keep in mind, none of these changes are guaranteed to
+eventually land in a stable release._
+
+
+## Package of the week
+
+The package of the week is [**TODO**](https://pub.dev/packages/zap)!
+
+TODO is a TODO.
+
+Dart's package ecosystem is growing fast,
+and we want to help foster that growth.
+If you know of any great open source projects,
+let us know by [suggesting a package][] on GitHub discussions.
+
+
+## Upcoming events
+
+Find an event near you or online and
+connect with other Dart developers!
+
+Always be sure to check the [Flutter Meetup Network][]
+and the [Dart Language][Dart Meetup] tag on Meetup
+for more events as well.
+
+Let us know about other future events on
+the [events discussion board][].
+
+### Virtual
+
+* TODO
+
+
+## Quotes and notes
+
+TODO
+
+Share quotes and comments you see and hear about Dart
+on our [quotes discussion board][] for future inclusion!
+
+
+## Dart jobs
+
+The following are some jobs that will provide you the opportunity
+to use or even build Dart.
+
+If you know of any jobs which use or are related to Dart,
+let us know in the [Job postings for Dart][] discussion board.
+
+### Google
+
+- The Dart and Flutter teams have job openings across a wide variety of roles.
+  See [Flutter and Dart team job openings][] for more information.
+
+### Very Good Ventures
+
+- [Senior Flutter Engineer (United States)](https://apply.workable.com/very-good-ventures/j/9DB5DCF67F/)
+
+### Superlist
+
+- [Senior Flutter (Desktop) Developer (Remote)](https://superlist.recruitee.com/o/senior-flutter-desktop-developer-mfd)
+
+
 [Flutter Meetup Network]: https://www.meetup.com/pro/flutter
 [Dart Meetup]: https://www.meetup.com/topics/dart-language/
 [Flutter and Dart team job openings]: https://dart.dev/jobs
