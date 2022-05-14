@@ -18,7 +18,8 @@ feel free to contribute on [GitHub][]
 or suggest content for next week on [GitHub discussions][].
 
 To discuss this week's issue,
-feel free to join us on the [Unofficial Dart Community Discord][].
+feel free to join us on the [Unofficial Dart Community Discord][]
+in the `#this-week-in-dart` channel.
 
 ## Announcements
 
