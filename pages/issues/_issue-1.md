@@ -47,13 +47,26 @@ see the [Flutter page][flutter-io] on the [Google I/O 2022][] site.
 ### Discussions
 
 * [Filip reacts to Flutter 3 announcements at I/O](https://www.youtube.com/watch?v=MEYQUhJdv9c&t=2161s)
+* [Let's Welcome Flutter 3.0 & Dart 2.17! Overview of new features!](https://www.youtube.com/watch?v=FGjtxGqSqnc)
 
 ### Learning materials
 
 * [Flutter Concurrency: When, why, and how to multithread in Flutter](https://io.google/2022/program/5b1811d3-3bcb-4d30-b2a1-a098225029a7/)
+* [Learn Dart Programming (by Codemy)](https://www.youtube.com/playlist?list=PLCC34OHNcOto7WU2QzVn3hnpSOYEdflVf)
+* [Enum Members in Dart 2.17](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/tipsandtricks/enum-members-in-dart-2-17.md)
 
-### Project updates
+### Project releases and updates
 
+* [package:powerd6 was released](https://pub.dev/packages/powerd6)<br>
+  A collection of models to support the powerd6 ruleset.
+* [package:eclass_api was released](https://pub.dev/packages/eclass_api)<br>
+  A client for the Open eClass Platform mobile API.
+* [package:chalkdart was released](https://pub.dev/packages/chalkdart)<br>
+  Console text coloring and styling library for Dart.
+* [package:curie was released](https://pub.dev/packages/curie)<br>
+  Dart implementation of the W3C CURIE Syntax 1.0.
+* [package:snapd 0.2.0 released](https://pub.dev/packages/snapd)<br>
+  Provides a client to access snapd, which allows you to manage, search and install snaps on a Linux system.
 
 ## Dart SDK updates
 
