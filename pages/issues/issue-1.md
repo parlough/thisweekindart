@@ -26,14 +26,15 @@ in the `#this-week-in-dart` channel.
 This was an especially busy week for Dart as
 Google I/O was this past week, May 11-12, available to stream online.
 
-This year saw a lot of interesting content and announcements for developers
+This year saw a lot of exciting content and announcements for developers
 using Google products or services, including Dart 2.17 and Flutter 3.
 
-To catch up with the Dart and Flutter announcements and learning materials,
+To catch up on the Dart and Flutter announcements and learning materials,
 see the [Flutter page][flutter-io] on the [Google I/O 2022][] site.
 
 [flutter-io]: https://io.google/2022/products/flutter/
 [Google I/O 2022]: https://io.google/2022
+
 
 ## Community updates
 
@@ -65,18 +66,19 @@ see the [Flutter page][flutter-io] on the [Google I/O 2022][] site.
   Console text coloring and styling library for Dart.
 * [package:curie was released](https://pub.dev/packages/curie)<br>
   Dart implementation of the W3C CURIE Syntax 1.0.
-* [package:snapd 0.2.0 released](https://pub.dev/packages/snapd)<br>
+* [package:snapd v0.2.0 was released](https://pub.dev/packages/snapd)<br>
   Provides a client to access snapd, which allows you to manage, search and install snaps on a Linux system.
+
 
 ## Dart SDK updates
 
 31 unique authors have contributed
-[98 commits][commit range]
+[99 commits][commit range]
 to the Dart SDK in the past week.
 
-[commit range]: https://github.com/dart-lang/sdk/compare/748ee46cf4710e3a9e45fa376db0164492e8f020...a251cd9b1e79fa927f1280014be73a317cbad951
+[commit range]: https://github.com/dart-lang/sdk/compare/748ee46cf4710e3a9e45fa376db0164492e8f020...aa616d6ad84b4fc4bfe0cef7c24aadba64fcd50b
 
-The following are some handpicked, interesting changes.
+The following are some handpicked, interesting changes:
 
 * [Hint.UNUSED_RESULT to handle callable instances](https://github.com/dart-lang/sdk/commit/2aa31c90466ee5fe4d13337f181653ec6bda2444)
 * [[analysis_server] Improve performance of LSP textDocument/codeActions with no range](https://github.com/dart-lang/sdk/commit/3c0289d618c2b30d708f7e8811ea7ae465a232ba)
@@ -92,7 +94,7 @@ eventually land in a stable release._
 
 ## Package of the week
 
-The package of the week is [**rohd**](https://pub.dev/packages/rohd).
+The package of the week is [**rohd**](https://pub.dev/packages/rohd)!
 
 The Rapid Open Hardware Development (ROHD) framework
 is a framework by Intel 
@@ -139,9 +141,24 @@ the [events discussion board][].
 [flutter-stockholm]: https://www.meetup.com/Flutter-Sweden/events/285648139/
 [flutter-dutch]: https://www.meetup.com/Dutch-Flutter-Meetup/events/284307569/
 
+
 ## Quotes and notes
 
-TODO
+<figure class="quote">
+    <blockquote cite="https://www.reddit.com/r/dartlang/comments/ujtgux/comment/i7ln8mm/?utm_source=share&utm_medium=web2x&context=3">
+        <p>Oh dang. That super parameters feature fixes
+          one of my biggest annoyances when using Flutter. 
+          Thanks devs. That is very much appreciated.</p>
+    </blockquote>
+    <figcaption>—DeedleFake on <cite><a href="https://www.reddit.com/r/dartlang/comments/uncnox/comment/i886i2h/?utm_source=share&utm_medium=web2x&context=3">/r/dartlang</a></cite></figcaption>
+</figure>
+
+<figure class="quote">
+    <blockquote cite="https://mobile.twitter.com/FlutterCarl/status/1525102460494397442">
+        <p>Writing apps in #Flutter is like meditation for me.</p>
+    </blockquote>
+    <figcaption>—Flutter Carl on <cite><a href="https://mobile.twitter.com/FlutterCarl/status/1525102460494397442">Twitter</a></cite></figcaption>
+</figure>
 
 Share quotes and comments you see and hear about Dart
 on our [quotes discussion board][] for future inclusion!
@@ -162,7 +179,7 @@ let us know in the [Job postings for Dart][] discussion board.
 
 ### Very Good Ventures
 
-- [Senior Flutter Engineer (United States)](https://apply.workable.com/very-good-ventures/j/9DB5DCF67F/)
+- [Senior Flutter Engineer (Remote, US)](https://apply.workable.com/very-good-ventures/j/9DB5DCF67F/)
 
 ### Superlist
 
@@ -184,7 +201,8 @@ let us know in the [Job postings for Dart][] discussion board.
 
 ### Bytedance
 
-- [Flutter Engineer, Lark Innovations](https://jobs.bytedance.com/en/position/7068418698784540965/detail)
+- [Flutter Engineer, Lark Innovations (California, US)](https://jobs.bytedance.com/en/position/7068418698784540965/detail)
+
 
 [Flutter Meetup Network]: https://www.meetup.com/pro/flutter
 [Dart Meetup]: https://www.meetup.com/topics/dart-language/
