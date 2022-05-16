@@ -57,16 +57,21 @@ see the [Flutter page][flutter-io] on the [Google I/O 2022][] site.
 
 ## Dart SDK updates
 
-X unique authors have contributed
-[X commits][commit range]
+31 unique authors have contributed
+[98 commits][commit range]
 to the Dart SDK in the past week.
 
-[commit range]: https://github.com/dart-lang/sdk/compare/630302b710c378c04ef234867da58c85087a8b81...748ee46cf4710e3a9e45fa376db0164492e8f020
+[commit range]: https://github.com/dart-lang/sdk/compare/748ee46cf4710e3a9e45fa376db0164492e8f020...a251cd9b1e79fa927f1280014be73a317cbad951
 
 The following are some handpicked, interesting changes.
 
-* TODO
-* TODO
+* [Hint.UNUSED_RESULT to handle callable instances](https://github.com/dart-lang/sdk/commit/2aa31c90466ee5fe4d13337f181653ec6bda2444)
+* [analysis_server] Improve performance of LSP textDocument/codeActions with no range](https://github.com/dart-lang/sdk/commit/3c0289d618c2b30d708f7e8811ea7ae465a232ba)
+* [[vm/simd] Add Float64x2 clamp simd implementation](https://github.com/dart-lang/sdk/commit/2a12dd3315421458b9818578f6ac996ceb6c1939)
+* [[dart2wasm] Build platform dill and compile dart2wasm to AOT snapshots](https://github.com/dart-lang/sdk/commit/6c7604291c8520ffacfafe75b3f39974d6d7efdb)
+* [[analysis_server] Switch to LSP v3.17 spec + regenerate types](https://github.com/dart-lang/sdk/commit/6b6a1998061c1d42607d31a5719844ad91d1ba06)
+* [[vm, compiler] Shorter LoadImmediate sequences for RV64](https://github.com/dart-lang/sdk/commit/885d7843a739bcfe16f6cbcd14ce6544520c755b)
+* [[vm/ffi] Support late Finalizable variables](https://github.com/dart-lang/sdk/commit/e418026d74b6c666a7fcb30278a2b10ed97fdb29)
 
 _Keep in mind, none of these changes are guaranteed to
 eventually land in a stable release._
