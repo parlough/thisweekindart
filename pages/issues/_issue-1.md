@@ -121,8 +121,23 @@ the [events discussion board][].
 
 ### Virtual
 
-* TODO
+* [Flutter Nordics Meetup - Google IO Special][flutter-nordic] | 2022-05-17<br>
+  A recap of what happened at Google IO '22 
+  and highlight the updates for Flutter.
 
+### Europe
+
+* [Flutter Stockholm - Building games with Flutter and Flame][flutter-stockholm] | Stockholm, SE | 2022-05-18<br>
+  This time, they will have two great speakers: Lukas Klingsbo from Flame, 
+  who will show how to build games with Flutter, and Edward Patel, 
+  who will talk about hooking up Flutter with Bluetooth and Arduino.
+* [Dutch Flutter Meetup - Localization][flutter-dutch] | Enschede, NL | 2022-05-19<br>
+  Discussion about localization in your Flutter app,
+  helping you prepare to take your application to go global.
+
+[flutter-nordic]: https://www.meetup.com/Oslo-Flutter-Dart-Meetup/events/285689307/
+[flutter-stockholm]: https://www.meetup.com/Flutter-Sweden/events/285648139/
+[flutter-dutch]: https://www.meetup.com/Dutch-Flutter-Meetup/events/284307569/
 
 ## Quotes and notes
 
@@ -153,6 +168,23 @@ let us know in the [Job postings for Dart][] discussion board.
 
 - [Senior Flutter (Desktop) Developer (Remote)](https://superlist.recruitee.com/o/senior-flutter-desktop-developer-mfd)
 
+### Baseflow
+
+- [Flutter Dev (Netherlands)](https://www.baseflow.com/careers/flutter-dev)
+- [Flutter Dev Intern](https://www.baseflow.com/careers/flutter-dev-intern)
+
+### Rive
+
+- [Software Engineer - Editor (Remote)](https://rive-app.notion.site/Software-Engineer-Editor-8e242820de7f4885962e71503086d76c)
+- [Flutter Runtimes Engineer (Remote)](https://rive-app.notion.site/Flutter-Runtimes-Engineer-e221136319ac4792af95e893660858d5)
+
+### Workiva
+
+- [Senior Frontend Software Engineer (Remote, US)](https://workiva.wd1.myworkdayjobs.com/en-US/careers/job/Senior-Frontend-Software-Engineer---Remote--Nationwide-_R4492)
+
+### Bytedance
+
+- [Flutter Engineer, Lark Innovations](https://jobs.bytedance.com/en/position/7068418698784540965/detail)
 
 [Flutter Meetup Network]: https://www.meetup.com/pro/flutter
 [Dart Meetup]: https://www.meetup.com/topics/dart-language/
