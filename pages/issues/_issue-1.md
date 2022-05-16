@@ -74,9 +74,14 @@ eventually land in a stable release._
 
 ## Package of the week
 
-The package of the week is [**TODO**](https://pub.dev/packages/zap)!
+The package of the week is [**rohd**](https://pub.dev/packages/rohd).
 
-TODO is a TODO.
+The Rapid Open Hardware Development (ROHD) framework
+is a framework by Intel 
+for describing and verifying hardware
+in the Dart programming language. 
+ROHD enables you to build and traverse a graph of connectivity
+between module objects using unrestricted software.
 
 Dart's package ecosystem is growing fast,
 and we want to help foster that growth.
