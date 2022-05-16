@@ -3,7 +3,7 @@ template: layouts/issue
 
 data:
   date: 2022-05-16
-  title: This Week in Dart 1
+  title: This Week in Dart - Issue 1
   description: The second issue of This Week in Dart, I/O edition!
   weight: 1
 ---
@@ -79,7 +79,7 @@ to the Dart SDK in the past week.
 The following are some handpicked, interesting changes.
 
 * [Hint.UNUSED_RESULT to handle callable instances](https://github.com/dart-lang/sdk/commit/2aa31c90466ee5fe4d13337f181653ec6bda2444)
-* [analysis_server] Improve performance of LSP textDocument/codeActions with no range](https://github.com/dart-lang/sdk/commit/3c0289d618c2b30d708f7e8811ea7ae465a232ba)
+* [[analysis_server] Improve performance of LSP textDocument/codeActions with no range](https://github.com/dart-lang/sdk/commit/3c0289d618c2b30d708f7e8811ea7ae465a232ba)
 * [[vm/simd] Add Float64x2 clamp simd implementation](https://github.com/dart-lang/sdk/commit/2a12dd3315421458b9818578f6ac996ceb6c1939)
 * [[dart2wasm] Build platform dill and compile dart2wasm to AOT snapshots](https://github.com/dart-lang/sdk/commit/6c7604291c8520ffacfafe75b3f39974d6d7efdb)
 * [[analysis_server] Switch to LSP v3.17 spec + regenerate types](https://github.com/dart-lang/sdk/commit/6b6a1998061c1d42607d31a5719844ad91d1ba06)
