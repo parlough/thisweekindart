@@ -67,10 +67,10 @@ from the [Dart SDK archive](https://dart.dev/get-dart/archive).
 * [package:cutting_room was released](https://pub.dev/packages/cutting_room)<br>
   Compose and render videos with compositions, backed by FFMPEG.
 * [package:dart_pusher_channels was released](https://pub.dev/packages/dart_pusher_channels)<br>
-  An unofficial pure dart implementation of [Pusher Channels][].
+  An unofficial pure Dart implementation of [Pusher Channels][].
 * [package:kroki was released](https://pub.dev/packages/kroki)<br>
   Package for accessing [Kroki.io][] web service 
-  for diagram syntax to svg rendering.
+  for converting diagram syntax to a svg rendering.
 * [package:google_vision v0.2.0 was released](https://pub.dev/packages/google_vision)<br>
   Add [Google Vision][] functionality into Dart applications.
 
@@ -90,10 +90,8 @@ from the [Dart SDK archive](https://dart.dev/get-dart/archive).
 ## Dart SDK updates
 
 31 unique authors have contributed
-[112 commits][commit range]
+[112 commits](https://github.com/dart-lang/sdk/compare/aa616d6ad84b4fc4bfe0cef7c24aadba64fcd50b...554af2272c2fc662906a2ee1bc412b66da3fece4)
 to the Dart SDK in the past week.
-
-[commit range]: https://github.com/dart-lang/sdk/compare/aa616d6ad84b4fc4bfe0cef7c24aadba64fcd50b...554af2272c2fc662906a2ee1bc412b66da3fece4
 
 The following are some handpicked, interesting changes:
 
