@@ -159,7 +159,7 @@ that enables sharing tooling, models, and more!
 
 The release of dart_frog and its corresponding packages
 is super exciting and marks the continued progress
-as the Dart ecosystem and community
+that the Dart ecosystem and community
 are making to again expand Dart beyond Flutter,
 particularly in the server space.
 
