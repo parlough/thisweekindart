@@ -41,10 +41,27 @@ from the [Dart SDK archive](https://dart.dev/get-dart/archive).
 
 ### Discussions
 
+* [Very Good Livestream: Dart Frog Demo](https://www.youtube.com/watch?v=N7l0b09c6DA)
+* [Introducing Jaspr - A complete web-framework written in Dart](https://www.reddit.com/r/dartlang/comments/v37pwt/introducing_jaspr_a_complete_webframework_written/)
+* [Create videos in Dart with Cutting Room](https://www.youtube.com/watch?v=uPrmkx29X3Y)
+* [.dart and .dartServer is stored in home folder on macOS](https://github.com/dart-lang/sdk/issues/49166)
+* [sameRuntimeType() function](https://github.com/dart-lang/sdk/issues/49154)
+
 ### Learning materials
+
+* [Type Promotion | Decoding Flutter](https://www.youtube.com/watch?v=2Cl0C-9dK48)
+* [Writing code as a mathematician](https://dartpad.dev/workshops.html?webserver=https://raw.githubusercontent.com/olexale/mathematician_workshop/main/#Step1)
+* [Dart Essentials](https://www.cloudskillsboost.google/quests/190)
+* [Dart-lang | Features you didn’t know exists](https://dev.to/krtirtho/dart-lang-features-you-didnt-know-exists-3j2b)
+* [Total Dart Language and Flutter app development Series](https://github.com/AvinandanBose/Dart_and_Flutter-app_Development_Full_Course)
+* [Write BETTER code with Dart 2.17 (Included in Flutter 3)](https://www.youtube.com/watch?v=mGOxuLV2EwI)
+* [How to Create DartPad Examples from GitHub Gists](https://codewithandrea.com/tips/create-dartpad-from-github-gist/)
+* [Master Backend with Dart Learn inside VS Code](https://www.sideguide.dev/courses/dart-backend)
 
 ### Project releases
 
+* [package:structured_async was released](https://pub.dev/packages/structured_async)<br>
+  Structured asynchronous programming in Dart.
 * [package:normal_distribution was released](https://pub.dev/packages/normal_distribution)<br>
   A minimal Dart module for working with normal distributions.
 * [package:creator_core was released](https://pub.dev/packages/creator_core)<br>
@@ -59,6 +76,7 @@ from the [Dart SDK archive](https://dart.dev/get-dart/archive).
 
 ### Project updates
 
+* [Dart Code for VS Code v3.42.0 was released](https://dartcode.org/releases/#v3420-2022-06-01)
 * [package:ffigen v6.0.0 was released](https://pub.dev/packages/ffigen/changelog#600)
 * [package:googleapis v9.0.0 was released](https://pub.dev/packages/googleapis/changelog#900)
 * [package:talker v1.0.0 was released](https://pub.dev/packages/talker/changelog#100)
@@ -90,9 +108,25 @@ eventually land in a stable release._
 
 ## Language updates and discussion
 
+Work and discussion around the potential
+of adding augmentation libraries to Dart continues.
+
+Augmentation libraries allow splitting a Dart library into files. 
+Unlike part files, each augmentation has its own imports and top-level scope. 
+Augmentations can add new top-level declarations, 
+inject new members into classes, 
+and wrap functions and variables in additional code.
+
+To read more about augmentation libraries and their underlying motivations,
+including class size, generated code, and macros,
+see its [feature specification][augments].
+
 To learn more about and contribute to discussion
-of current and future changes to the Dart language,
+of this and other potential changes to the Dart language,
 visit the [Dart language repository][].
+
+[augments]: https://github.com/dart-lang/language/blob/master/working/augmentation-libraries/feature-specification.md
+
  
 ## Package of the week
 
