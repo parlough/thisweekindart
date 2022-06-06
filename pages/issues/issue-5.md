@@ -53,6 +53,7 @@ from the [Dart SDK archive](https://dart.dev/get-dart/archive).
 * [Writing code as a mathematician](https://dartpad.dev/workshops.html?webserver=https://raw.githubusercontent.com/olexale/mathematician_workshop/main/#Step1)
 * [Dart Essentials](https://www.cloudskillsboost.google/quests/190)
 * [Dart-lang | Features you didn’t know exists](https://dev.to/krtirtho/dart-lang-features-you-didnt-know-exists-3j2b)
+* [Byte sized tip: Dart and GraphQL (Flutter and GraphQL)](https://dev.to/iamchathu/byte-size-tip-dart-and-graphql-flutter-and-graphql-35d8)
 * [Total Dart Language and Flutter app development Series](https://github.com/AvinandanBose/Dart_and_Flutter-app_Development_Full_Course)
 * [Write BETTER code with Dart 2.17 (Included in Flutter 3)](https://www.youtube.com/watch?v=mGOxuLV2EwI)
 * [How to Create DartPad Examples from GitHub Gists](https://codewithandrea.com/tips/create-dartpad-from-github-gist/)
@@ -76,7 +77,7 @@ from the [Dart SDK archive](https://dart.dev/get-dart/archive).
 
 ### Project updates
 
-* [Dart Code for VS Code v3.42.0 was released](https://dartcode.org/releases/#v3420-2022-06-01)
+* [Dart Code (for VS Code) v3.42.0 was released](https://dartcode.org/releases/#v3420-2022-06-01)
 * [package:ffigen v6.0.0 was released](https://pub.dev/packages/ffigen/changelog#600)
 * [package:googleapis v9.0.0 was released](https://pub.dev/packages/googleapis/changelog#900)
 * [package:talker v1.0.0 was released](https://pub.dev/packages/talker/changelog#100)
@@ -152,11 +153,46 @@ and the [Dart Language][Dart Meetup] tag on Meetup
 to find an event near you or online and
 connect with other Dart developers!
 
+### Virtual
+
+* [FIG | DIG][fig-dig] | 2022-06-06<br>
+  Dart and Flutter interest group Q&A and general discussion.
+* [Dart/Flutter Code Lab][toronto] | 2022-06-07<br>
+  A one-hour code lab that is meant to motivate
+  and have you practice learning Dart/Flutter with others.
+
 Let us know about other future events on
 the [events discussion board][].
 
+[fig-dig]: https://www.meetup.com/fig-dig-minneapolis-stpaul-flutter-interest-group/events/xtkvssydcjbjb/
+[toronto]: https://www.meetup.com/flutter-toronto-group/events/286019021/
 
 ## Quotes and notes
+
+<figure class="quote">
+    <blockquote cite="https://twitter.com/DomesticMouse/status/1531829079812747264">
+        <p>There are multiple axes when talking about speed. 
+          There is startup speed, and then there is the speed of a warm server. 
+          For rapid spin up containers,
+          using dart compiled to native executables give fast start. 
+          For long lived servers, Dart VM gives great run time optimisations.</p>
+    </blockquote>
+    <figcaption>—Brett Morgan on <cite><a href="https://twitter.com/DomesticMouse/status/1531829079812747264">Twitter</a></cite></figcaption>
+</figure>
+
+<figure class="quote">
+    <blockquote cite="https://twitter.com/CFDevelop/status/1533773706379440128">
+        <p>Type inference in #dart is very nice</p>
+    </blockquote>
+    <figcaption>—Christian Findlay on <cite><a href="https://twitter.com/CFDevelop/status/1533773706379440128">Twitter</a></cite></figcaption>
+</figure>
+
+<figure class="quote">
+    <blockquote cite="https://twitter.com/chrisfujino/status/1532877304552009728">
+        <p>Even Python bots love Dart (VM internals)</p>
+    </blockquote>
+    <figcaption>—Christopher Fujino on <cite><a href="https://twitter.com/chrisfujino/status/1532877304552009728">Twitter</a></cite></figcaption>
+</figure>
 
 Share quotes and comments you see and hear about Dart
 on our [quotes discussion board][] for future inclusion!
@@ -182,6 +218,14 @@ let us know in the [Job postings for Dart][] discussion board.
 ### Tonal
 
 - [Mobile Engineer (Flutter) (NY, US)](https://jobs.lever.co/tonal/b47beb5f-ad20-4bdf-b28d-f1c3bf2273de)
+
+### Embrace
+
+- [Flutter Engineer (Remote, US, CA, AR)](https://boards.greenhouse.io/embrace/jobs/4144809004)
+
+### IBM
+
+- [Senior Software Developer - Flutter (Remote, US)](https://careers.ibm.com/job/15419705/senior-software-developer-flutter-remote)
 
 ### Very Good Ventures
 
