@@ -5,7 +5,7 @@ data:
     date: 2022-06-06
     title: This Week in Dart - Issue 5
     description: The fifth issue of This Week in Dart!
-    weight: 3
+    weight: 5
 ---
 
 Hello fellow Dartisans!
@@ -32,8 +32,26 @@ in the `#this-week-in-dart` channel.
 
 ### Project releases
 
+* [package:normal_distribution was released](https://pub.dev/packages/normal_distribution)<br>
+  A minimal Dart module for working with normal distributions.
+* [package:creator_core was released](https://pub.dev/packages/creator_core)<br>
+  A state management library that enables
+  concise, fluid, readable and testable business logic code.
+* [package:jaspr was released](https://pub.dev/packages/jaspr)<br>
+  Experimental web framework that feels like Flutter
+  but supports server-side rendering.
+* [package:domino_html was released](https://pub.dev/packages/domino_html)<br>
+  Helper methods to build HTML elements with proper attributes
+  using `package:domino`.
+
 ### Project updates
 
+* [package:ffigen v6.0.0 was released](https://pub.dev/packages/ffigen/changelog#600)
+* [package:googleapis v9.0.0 was released](https://pub.dev/packages/googleapis/changelog#900)
+* [package:talker v1.0.0 was released](https://pub.dev/packages/talker/changelog#100)
+* [package:solana v0.25.0 was released](https://pub.dev/packages/solana/changelog#0250)
+* [package:dartbag v0.4.0 was released](https://pub.dev/packages/dartbag/changelog#040)
+* [package:spider v3.0.0 was released](https://pub.dev/packages/spider/changelog#300)
 
 
 ## Dart SDK updates
@@ -58,7 +76,14 @@ visit the [Dart language repository][].
  
 ## Package of the week
 
-The package of the week is [**TODO**](https://pub.dev/packages/)!
+The package of the week is [**dcli**](https://pub.dev/packages/dcli)!
+
+dcli provides an API and tooling for building 
+cross-platform command line (CLI) applications 
+and scripts using the Dart programming language.
+
+You can learn more about dcli by reading its extensive documentation
+found at [dcli.onepub.dev](https://dcli.onepub.dev/).
 
 Dart's package ecosystem is growing fast,
 and we want to help foster that growth.

@@ -4,7 +4,8 @@
     "ignore": [
       "packages",
       "**/.*",
-      ".dart_tool"
+      ".dart_tool",
+      "**/.*/**"
     ],
     "cleanUrls": true,
     "trailingSlash": false,
