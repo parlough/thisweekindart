@@ -23,6 +23,19 @@ in the `#this-week-in-dart` channel.
 
 ## Announcements
 
+This week saw the release of Dart 2.17.3,
+a patch release which fixed the following issues:
+
+* A Dart VM compiler crash (flutter issue [#100375](https://github.com/flutter/flutter/issues/100375))
+* No code completion when writing method overrides (SDK issue [#49027](https://github.com/dart-lang/sdk/issues/49027))
+* The `dart pub login` command failing to write credentials (pub issue [#3424](https://github.com/dart-lang/pub/issues/3424))
+* Failed constant analysis of enhanced enums (SDK issue [#49097](https://github.com/dart-lang/sdk/issues/49097))
+
+To learn how to update your Dart version,
+check out [Get the Dart SDK](https://dart.dev/get-dart)
+or download the update
+from the [Dart SDK archive](https://dart.dev/get-dart/archive).
+
 
 ## Community updates
 
@@ -62,7 +75,14 @@ to the Dart SDK in the past week.
 
 The following are some handpicked, interesting changes:
 
-* TODO
+* [[cfe/ffi] Only keep Finalizables alive after their declaration](https://github.com/dart-lang/sdk/commit/a801368f80f85553682816c67c9e7dc3ea90337d)
+* [[CFE] Speedup dill serialization after slowdown in 548bff1](https://github.com/dart-lang/sdk/commit/b99901c433fcf67b5617543edef25e18d915735d)
+* [[vm, gc] Don't double initialize typed data in compressed pointers mode](https://github.com/dart-lang/sdk/commit/b6fd6e05933a063e8e7b6f331dd53dc551bcb9ff)
+* [[release] Add 2.17.3 release notes](https://github.com/dart-lang/sdk/commit/11d63e3fa0bff0b57ead9f2ca0a39f70a9962bbb)
+* [[vm] Represent the slow object copy from_to table with a heap array](https://github.com/dart-lang/sdk/commit/c588224163a371e5647756262c1c9d2fdf54c622)
+* [[ Service / AOT ] Include line numbers for Functions in AOT snapshots](https://github.com/dart-lang/sdk/commit/4e688b1a59d879f20baa877fb06a90f006791d0e)
+* [[vm] New async/async* implementation in JIT mode](https://github.com/dart-lang/sdk/commit/af4da780be986e9aad22ab18395f1548ac1d1937)
+* [Make path argument optional for Uri.http(s)](https://github.com/dart-lang/sdk/commit/75ed6c01fb74b3fd291dc735b75095a8bff41e02)
 
 _Keep in mind, none of these changes are guaranteed to
 eventually land in a stable release._
