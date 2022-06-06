@@ -3,7 +3,8 @@
     "public": "_site",
     "ignore": [
       "packages",
-      "**/.*"
+      "**/.*",
+      ".dart_tool"
     ],
     "cleanUrls": true,
     "trailingSlash": false,
