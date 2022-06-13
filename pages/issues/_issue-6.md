@@ -33,14 +33,24 @@ and use the corresponding `lowerCamelCase` constants instead.
 
 ## Community updates
 
-
-
 ### Discussions
 
 * [State of web UI frameworks for Dart](https://www.reddit.com/r/dartlang/comments/v7ye0o/state_of_web_ui_frameworks_for_dart/)
+* [Realm Flutter SDK is now in beta](https://realm.io/realm-flutter/)
+* [Remove the configurable line_length feature](https://github.com/dart-lang/dart_style/issues/1115)
+* [I've been coding in dart for around 3 months. Here are my thoughts.](https://www.reddit.com/r/dartlang/comments/v8fjgy/ive_been_coding_in_dart_for_around_3_months_here/)
+* [invalid_return_type_for_catch_error does not detect implicit null returns](https://github.com/dart-lang/sdk/issues/49215)
+* [Flutter/Dart @ Google (Twitter Group)](https://mobile.twitter.com/i/lists/1534974004171198464)
+* [Amazing Reasons that Explain Why Flutter uses Dart!](https://kodytechnolab.com/blog/why-flutter-uses-dart)
 
 ### Learning materials
 
+* [Sorting with generics in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/tipsandtricks/sorting-generics-in-dart.md)
+* [Enum annotations](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/tipsandtricks/enum-annotations-in-flutter.md)
+* [Fizzbuzz in Dart](https://www.youtube.com/watch?v=N_Zbj1tGc-w)
+* [Dart core libraries](https://dart.dev/guides/libraries)
+* [Abstract Classes in Dart](https://www.geeksforgeeks.org/abstract-classes-in-dart/)
+* [Objektorientierte Programmierung (OOP) am Beispiel von Dart](https://www.youtube.com/playlist?list=PLLozWNViIqr3e8uWo-dcya-EvicfnmzZo)
 
 ### Project releases
 
@@ -54,10 +64,10 @@ and use the corresponding `lowerCamelCase` constants instead.
   Simple sunrise and sunset time calculation for a given location.
 * [package:needle_orm was released](https://pub.dev/packages/needle_orm)<br>
   ORM for dart, inspired by Ebean.io (an ORM from Java/Kotlin world).
-  
 
 ### Project updates
 
+* [package:drift v1.7.0 was released](https://pub.dev/packages/drift/changelog#170)
 * [package:solana v0.25.0 was released](https://pub.dev/packages/solana/changelog#0250)
 * [package:rad v0.9.0 was released](https://pub.dev/packages/rad/changelog#090)
 * [package:melos v2.4.0 was released](https://pub.dev/packages/melos/changelog#240)
