@@ -9,7 +9,7 @@ data:
 ---
 
 Hello fellow Dartisans!
-Welcome to the sixth issue of _This Week in Dart_!
+Welcome to the sixth issue of _This Week in Dart!_
 _This Week in Dart's_ aim is to be a useful collection of changes and news
 from across the Dart ecosystem and its surrounding community.
 
@@ -104,9 +104,9 @@ eventually land in a stable release._
 ## Language updates and discussion
 
 Changes and improvements to the language specification
-are continuously being discussed and made.
+are continuously being discussed and implemented.
 
-Recent clarifications around how to check for override errors
+Recently, clarifications around how to check for override errors
 have been proposed to the official specification in
 [Specify private override errors][2283].
 
@@ -161,6 +161,24 @@ the [events discussion board][].
 [flamecon]: https://www.meetup.com/FlameCon/events/286425957/
 
 ## Quotes and notes
+
+<figure class="quote">
+    <blockquote cite="https://www.reddit.com/r/dartlang/comments/v8fjgy/comment/ibq5qvl/">
+        <p>I've fallen in love with Dart and wish I could use it
+        (or the syntax at least) everywhere. 
+        All other syntaxes feel inferior to me now haha</p>
+    </blockquote>
+    <figcaption>—Kuroodo on <cite><a href="https://www.reddit.com/r/dartlang/comments/v8fjgy/comment/ibq5qvl/">/r/dartlang</a></cite></figcaption>
+</figure>
+
+<figure class="quote">
+    <blockquote cite="https://www.reddit.com/r/dartlang/comments/v8fjgy/comment/ibqdgs0/">
+        <p>Dart's async/isolates are the best thing about the language. 
+        Providing for decent concurrency based on Actor model is a huge win. 
+        Otherwise it's another simpler/better Java.</p>
+    </blockquote>
+    <figcaption>—snarkuzoid on <cite><a href="https://www.reddit.com/r/dartlang/comments/v8fjgy/comment/ibqdgs0/">/r/dartlang</a></cite></figcaption>
+</figure>
 
 Share quotes and comments you see and hear about Dart
 on our [quotes discussion board][] for future inclusion!
