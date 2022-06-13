@@ -99,12 +99,28 @@ visit the [Dart language repository][].
  
 ## Package of the week
 
-The package of the week is [**X**](https://pub.dev/packages/)!
+The package of the week is [**jaspr**](https://pub.dev/packages/jaspr)!
+
+jaspr is a web framework for Dart 
+that supports single-page applications and server-side rendering.
+
+Some of jaspr's core features are:
+
+* Familiar component model similar to Flutter widgets
+* Easy Server Side Rendering
+* Automatic hydration of component data on the client
+* Fast incremental DOM updates
+
+You can learn more about jaspr on its [wiki][jaspr-wiki]
+and try it out on [JasprPad][].
 
 Dart's package ecosystem is growing fast,
 and we want to help foster that growth.
 If you know of any great open source projects,
 let us know by [suggesting a package][] on GitHub discussions.
+
+[jaspr-wiki]: https://github.com/schultek/jaspr/wiki
+[JasprPad]: https://jasprpad.schultek.de/
 
 
 ## Upcoming events
