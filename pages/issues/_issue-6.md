@@ -23,9 +23,17 @@ in the `#this-week-in-dart` channel.
 
 ## Announcements
 
+The next stable release of Dart, likely 2.18,
+will see the removal of the deprecated `SCREAMING_CAPS` constants in `dart:io`.
+
+To prepare for this change,
+verify you aren't using the deprecated constants 
+and use the corresponding `lowerCamelCase` constants instead.
 
 
 ## Community updates
+
+
 
 ### Discussions
 
@@ -35,8 +43,28 @@ in the `#this-week-in-dart` channel.
 
 ### Project releases
 
+* [package:daco was released](https://pub.dev/packages/daco)<br>
+  A tool for maintaining Dart comments.
+  Supports formatting of comments,
+  including embedded Dart code.
+* [package:supercluster was released](https://pub.dev/packages/supercluster)<br>
+  A package for fast marker clustering.
+* [package:suntime was released](https://pub.dev/packages/suntime)<br>
+  Simple sunrise and sunset time calculation for a given location.
+* [package:needle_orm was released](https://pub.dev/packages/needle_orm)<br>
+  ORM for dart, inspired by Ebean.io (an ORM from Java/Kotlin world).
+  
 
 ### Project updates
+
+* [package:solana v0.25.0 was released](https://pub.dev/packages/solana/changelog#0250)
+* [package:rad v0.9.0 was released](https://pub.dev/packages/rad/changelog#090)
+* [package:melos v2.4.0 was released](https://pub.dev/packages/melos/changelog#240)
+* [package:shelf_hotreload v1.2.0 was released](https://pub.dev/packages/shelf_hotreload/changelog#120)
+* [package:enough_convert v1.5.0 was released](https://pub.dev/packages/enough_convert/changelog#150)
+* [package:graphql_codegen v0.9.0 was released](https://pub.dev/packages/graphql_codegen/changelog#090)
+* [package:binary v3.0.0 (with null safety) was released](https://pub.dev/packages/binary/changelog#300)
+* [package:wot v0.19.0 was released](https://pub.dev/packages/dart_wot/changelog#0190)
 
 
 ## Dart SDK updates
@@ -46,6 +74,17 @@ in the `#this-week-in-dart` channel.
 to the Dart SDK in the past week.
 
 The following are some handpicked, interesting changes:
+
+* [`dart fix` for single files](https://github.com/dart-lang/sdk/commit/467a1b05c03878fa9f94779a3af18dcf368254da)
+* [[js] Support js_util on dart2wasm](https://github.com/dart-lang/sdk/commit/d872e74a6dcc6e241b0e7ff01d3f254909aaf45d)
+* [[dart2js] Late instance field optimizations](https://github.com/dart-lang/sdk/commit/6384eceedc3a947f8dfc44681fd0fe84b1930f1f)
+* [[dart2wasm] Implement backward jumps in switch statements](https://github.com/dart-lang/sdk/commit/1456af7b977e3d5fcc4f12569c990b938b01a284)
+* [Remove SCREAMING dart:io networking APIs](https://github.com/dart-lang/sdk/commit/abfdc3d50f6cf66165767da8df4f681a68467178)
+* [[vm, gc] Evaluate old-gen GC on each new-gen page](https://github.com/dart-lang/sdk/commit/88ca1e95b8fd4b756fd7be773a44745300b12c41)
+* [Refactor `_Future`](https://github.com/dart-lang/sdk/commit/69f32d6ad7e724e3148cb2eb6601e63165e76ad3)
+* [[vm] Always complete Future synchronously when returning non-Future value from async functions](https://github.com/dart-lang/sdk/commit/213ae5429b9efb4cdaad40619b3b037a38be5013)
+* [[vm] More efficient 'await' of not Future and completed _Future](https://github.com/dart-lang/sdk/commit/6b3d1752fad1a2980e8c51ef6033d98061362a04)
+* [Enable lints to have context messages](https://github.com/dart-lang/sdk/commit/02049223fd4f8787feed3a9ff4868e6e7704d54b)
 
 _Keep in mind, none of these changes are guaranteed to
 eventually land in a stable release._
@@ -107,7 +146,7 @@ let us know in the [Job postings for Dart][] discussion board.
 
 ### Paramount
 
-- [Senior Software Engineer- Flutter Development (Remote, US)](https://careers.viacomcbs.com/job/New-York-Senior-SWE-Flutter-Development-NY-10036/882329700)
+- [Senior Software Engineer - Flutter Development (Remote, US)](https://careers.viacomcbs.com/job/New-York-Senior-SWE-Flutter-Development-NY-10036/882329700)
 
 ### Tonal
 
