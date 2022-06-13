@@ -37,6 +37,7 @@ and use the corresponding `lowerCamelCase` constants instead.
 
 ### Discussions
 
+* [State of web UI frameworks for Dart](https://www.reddit.com/r/dartlang/comments/v7ye0o/state_of_web_ui_frameworks_for_dart/)
 
 ### Learning materials
 
@@ -92,9 +93,18 @@ eventually land in a stable release._
 
 ## Language updates and discussion
 
+Changes and improvements to the language specification
+are continuously being discussed and made.
+
+Recent clarifications around how to check for override errors
+have been proposed to the official specification in
+[Specify private override errors][2283].
+
 To learn more about and contribute to discussion
 of this and other potential changes to the Dart language,
 visit the [Dart language repository][].
+
+[2283]: https://github.com/dart-lang/language/pull/2283
 
  
 ## Package of the week
@@ -130,11 +140,15 @@ and the [Dart Language][Dart Meetup] tag on Meetup
 to find an event near you or online and
 connect with other Dart developers!
 
+### Virtual
+
+* [5th FlameCon][flamecon] | 2022-06-14<br>
+  The fifth edition of the Flutter Game Engine virtual conference.
+
 Let us know about other future events on
 the [events discussion board][].
 
-[fig-dig]: https://www.meetup.com/fig-dig-minneapolis-stpaul-flutter-interest-group/events/xtkvssydcjbjb/
-[toronto]: https://www.meetup.com/flutter-toronto-group/events/286019021/
+[flamecon]: https://www.meetup.com/FlameCon/events/286425957/
 
 ## Quotes and notes
 
