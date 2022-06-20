@@ -48,8 +48,31 @@ on the change and migration help.
 
 ### Project releases
 
+* [package:mattermost_api was released](https://pub.dev/packages/mattermost_api)<br>
+  An implementation of the Mattermost API as of 4.0.0.
+* [package:fennec was released](https://pub.dev/packages/fennec)<br>
+  A Dart web framework with the principal goal make
+  server side web development easier and faster to develop.
+* [package:h3_dart was released](https://pub.dev/packages/h3_dart)<br>
+  A Dart version of the H3 Core library, a hexagon-based geographic grid system.
+* [package:adderlink was released](https://pub.dev/packages/adderlink)<br>
+  A Dart library for controlling Adderlink devices over a network.
+* [package:couchdb_dart was released](https://pub.dev/packages/couchdb_dart)<br>
+  A small simple package to make it easier to use a CouchDB server.
+
 ### Project updates
 
+* [package:shelf_hotreload v1.3.0 was released](https://pub.dev/packages/shelf_hotreload/changelog#130)
+* [package:protobuf v2.1.0 was released](https://pub.dev/packages/protobuf/changelog#210)
+* [package:usage v4.1.0 was released](https://pub.dev/packages/usage/changelog#410)
+* [package:enough_convert v1.6.0 was released](https://pub.dev/packages/enough_convert/changelog#160)
+* [package:glob v2.1.0 was released](https://pub.dev/packages/glob/changelog#210)
+* [package:w_common v2.0.0 was released](https://pub.dev/packages/w_common/changelog#200httpsgithubcomworkivaw_commoncompare1218200)
+* [package:basics v0.8.0 was released](https://pub.dev/packages/basics/changelog#080)
+* [package:simplytranslate v1.2.0 was released](https://pub.dev/packages/simplytranslate/changelog#120)
+* [package:reflection_factory v1.2.0 was released](https://pub.dev/packages/reflection_factory/changelog#120)
+* [package:geocore v0.9.0 was released](https://pub.dev/packages/geocore/changelog#090)
+* [package:moment_dart v0.7.0 was released](https://pub.dev/packages/moment_dart/changelog#070)
 
 ## Dart SDK updates
 
@@ -59,6 +82,13 @@ to the Dart SDK in the past week.
 
 The following are some handpicked, interesting changes:
 
+* [Reland "[data driven] support moving symbols across packages"](https://github.com/dart-lang/sdk/commit/9a48d1b82f227d35cf8e1537374e4db7a828b07a)
+* [[vm, gc] Remove the growth policy's hard limit when concurrent marking is available](https://github.com/dart-lang/sdk/commit/305c3e30c6aea9c05a1abec35eb5f7e09f716348)
+* [[dart2wasm] Fix a number of minor JS interop issues](https://github.com/dart-lang/sdk/commit/76ccc89a10efff04c88e760236c29061af37b6f9)
+* [[vm, gc] Parallelize scavenging large arrays](https://github.com/dart-lang/sdk/commit/837480f3f64d70faa9225b9693ad7a5c989d1e8b)
+* [quick-fix to wrap in `unawaited`](https://github.com/dart-lang/sdk/commit/d2e006eefa1343fe554a72c78ae336194a92f053)
+* [[vm, compiler] Implement all remaining assembly intrinsics for RISC-V](https://github.com/dart-lang/sdk/commit/ec54e588fcbd0dbce546389ebf34741d4cdc73f6)
+* [[analyzer] Add a quick fix for avoid_renaming_method_parameters](https://github.com/dart-lang/sdk/commit/a60df664b3596d03479f99d075102bf6b8d1b77e)
 
 _Keep in mind, none of these changes are guaranteed to
 eventually land in a stable release._
