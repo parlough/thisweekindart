@@ -30,8 +30,15 @@ To compile web applications for production,
 instead use [`dart compile js`][],
 and to develop web apps use tools like [`webdev`][].
 
+A future release of Dart, possibly 2.19,
+will see complete support for mixin of classes 
+that don't extend `Object` removed.
+See the [breaking change request][48167] for more information
+on the change and migration help.
+
 [`dart compile js`]: https://dart.dev/tools/dart-compile#js
 [`webdev`]: https://dart.dev/tools/webdev
+[48167]: https://github.com/dart-lang/sdk/issues/48167
 
 ## Community updates
 
