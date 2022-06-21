@@ -44,7 +44,19 @@ on the change and migration help.
 
 ### Discussions
 
+- [Dart is Boring](https://akos.ma/blog/dart-is-boring/)
+- [Dart as first language](https://www.reddit.com/r/dartlang/comments/vgggno/dart_as_first_language/)
+- [Build a CLI Tool with Dart](https://www.youtube.com/watch?v=5uH9o0V7oMk)
+- [Supabase Happy Hour #8 - Let's grow wings and Flutter!](https://www.youtube.com/watch?v=E2JuTtk1LcI)
+
 ### Learning materials
+
+- [Really Null Safety in Flutter/Dart](https://medium.com/flutter-students-club/really-null-safety-in-flutter-dart-56e2a70a3849)
+- [Debouncer mixin for Dart](https://gist.github.com/demirdev/2d40166fe5c58cfa9d3399ede56f8520)
+- [Merging maps in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/tipsandtricks/merging-maps-in-dart/merging-maps-in-dart.md)
+- [Classes The Fast and Easy Way - Learn Dart Programming 13](https://www.youtube.com/watch?v=NwrEYB_YFVE)
+- [Deploy Dart Server to Heroku - Server Deployment Tutorial](https://www.youtube.com/watch?v=nkTUMVNelXA)
+- [5 Dart Tips - Flutter](https://www.youtube.com/watch?v=kCAHh5TnNL8)
 
 ### Project releases
 
@@ -157,6 +169,19 @@ the [events discussion board][].
 Share quotes and comments you see and hear about Dart
 on our [quotes discussion board][] for future inclusion!
 
+<figure class="quote">
+    <blockquote cite="https://twitter.com/SEGVeenstra/status/1537046803933282305">
+        <p>All I need is @dart_lang</p>
+    </blockquote>
+    <figcaption>—Stephan E.G. Veenstra on <cite><a href="https://twitter.com/SEGVeenstra/status/1537046803933282305">Twitter</a></cite></figcaption>
+</figure>
+
+<figure class="quote">
+    <blockquote cite="https://akos.ma/blog/dart-is-boring/">
+        <p>All in all, Dart is boring, and that’s its greatest feature.</p>
+    </blockquote>
+    <figcaption>—Adrian Kosmaczewski in <cite><a href="https://akos.ma/blog/dart-is-boring/">Dart is Boring</a></cite></figcaption>
+</figure>
 
 ## Dart jobs
 
@@ -183,10 +208,15 @@ let us know in the [Job postings for Dart][] discussion board.
 ### IBM
 
 - [Senior Software Developer - Flutter (Remote, US)](https://careers.ibm.com/job/15419705/senior-software-developer-flutter-remote)
+- [(Senior) Flutter Developer (Berlin, DE)](https://ibmix.de/job/u1597-senior-flutter-developer-w-m-x/)
 
 ### Very Good Ventures
 
 - [Senior Flutter Engineer (Remote, US)](https://apply.workable.com/very-good-ventures/j/9DB5DCF67F/)
+
+### Superformula
+
+- [Mobile Flutter Engineer (Remote, Americas)](https://careers.superformula.com/o/mobile-flutter-engineer-americas)
 
 
 [Dart language repository]: https://github.com/dart-lang/language
