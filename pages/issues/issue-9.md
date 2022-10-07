@@ -71,7 +71,7 @@ from within the editor.
 * [package:objectbox v1.6.0 was released](https://pub.dev/packages/objectbox/changelog#160-2022-06-27)
 * [package:appwrite v6.0.0 was released](https://pub.dev/packages/dart_appwrite/changelog#600)
 * [package:jaspr v0.1.5 was released](https://pub.dev/packages/jaspr/changelog#015)
-* [package:oepnfoodfacts v1.20.0 was released](https://pub.dev/packages/openfoodfacts/changelog#1200httpsgithubcomopenfoodfactsopenfoodfacts-dartcomparev1190v1200-2022-06-29)
+* [package:openfoodfacts v1.20.0 was released](https://pub.dev/packages/openfoodfacts/changelog#1200httpsgithubcomopenfoodfactsopenfoodfacts-dartcomparev1190v1200-2022-06-29)
 * [package:mysql1 v0.20.0 was released](https://pub.dev/packages/mysql1/changelog)
 * [package:fennec v0.0.9 was released](https://pub.dev/packages/fennec/changelog#009)
 
