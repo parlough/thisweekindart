@@ -156,6 +156,9 @@ its [announcement post][custom-lint-announcement],
 or an extensive video tutorial about 
 [Creating custom lint rules for Dart and Flutter projects][].
 
+Thanks to [@Luckey-Elijah](https://github.com/Luckey-Elijah)
+for the suggestion!
+
 Dart's package ecosystem is growing fast,
 and we want to help foster that growth.
 If you know of any great open source projects,

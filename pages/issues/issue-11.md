@@ -168,6 +168,9 @@ and utilizing it to build your first parser,
 see it's [extensive tutorial][petit-tutorial]
 and its [collection of examples][petit-examples].
 
+Thanks to [@felixalguzman](https://github.com/felixalguzman)
+for the suggestion!
+
 Dart's package ecosystem is growing fast,
 and we want to help foster that growth.
 If you know of any great open source projects,
