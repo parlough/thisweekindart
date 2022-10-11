@@ -247,7 +247,7 @@ let us know in the [Job postings for Dart][] discussion board.
 - [Mobile Developer - Flutter (US)](https://apply.deloitte.com/careers/JobDetail/Mobile-Developer-Flutter-ConvergeHEALTH-Deloitte-Consulting-LLP/117233)
 - [Lead Flutter UI Engineer (US)](https://apply.deloitte.com/careers/JobDetail/ConvergePROSPERITY-BankingSuite-Lead-Flutter-UI-Engineer/117032)
 
-## Swiss Aviation Software
+### Swiss Aviation Software
 
 - [Full Stack Software Engineer in Java & Dart (Basel, CH)](https://swissas.teamtailor.com/jobs/1794803-full-stack-software-engineer-in-java-dart)
 
