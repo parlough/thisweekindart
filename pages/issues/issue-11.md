@@ -33,7 +33,7 @@ for Dart and Flutter apps.
 Supply chain security has been a recent focus of the Dart and Flutter teams,
 you can read more about their use of [Allstar and Security scorecards][]
 and some of Flutter's work towards [improving their
-Supply Chain Levels for Software Artifacts][slsa] (SLSA level).
+Supply Chain Levels for Software Artifacts][slsa] (SLSA).
 
 [GitHub now supports Dart]: https://medium.com/dartlang/partnering-with-github-on-an-supply-chain-security-485eed1fc388
 [Advisory Database]: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apub
