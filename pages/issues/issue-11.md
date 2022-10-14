@@ -94,7 +94,7 @@ Supply Chain Levels for Software Artifacts][slsa] (SLSA).
 * [package:custom_list v0.0.12 was released](https://pub.dev/packages/custom_lint/changelog#0012)
 * [package:drift v2.2.0 was released](https://pub.dev/packages/drift/changelog#220)
 * [package:stock v1.0.0 was released](https://pub.dev/packages/stock/changelog#100)
-* [package:loggin v1.1.0 was released](https://pub.dev/packages/logging/changelog#110)
+* [package:logging v1.1.0 was released](https://pub.dev/packages/logging/changelog#110)
 * [package:puppeteer v2.14.0 was released](https://pub.dev/packages/puppeteer/changelog#2140)
 
 
