@@ -13,4 +13,3 @@ dev_dependencies:
     git:
       url: https://github.com/simolus3/built_site.git
       path: built_site
-  webdev: ^2.7.9

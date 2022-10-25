@@ -17,14 +17,6 @@ Future<void> main() async {
     'build',
     '--release',
     define,
-  ]);
-
-  await _runProcess(dartExecutable, [
-    'run',
-    'build_runner',
-    'build',
-    '--release',
-    define,
     '--output',
     'web:_site',
   ]);
