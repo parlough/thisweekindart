@@ -17,21 +17,15 @@ on the [Unofficial Dart Community Discord](https://discord.gg/Qt6DgfAWWx).
 
 ## Running the site
 
-To run a development version of the site locally, run: 
+To run a development version of the site locally, run:
 
 ```shell
-dart run webdev serve pages:9999 web:8080 --auto refresh
+dart run build_runner serve --live-reload
 ```
 
 ## Building the site
 
-To build a production version of the site, first run:
-
-```shell
-dart run build_runner build --release
-```
-
-To then copy generated contents into the desired directory, use:
+To build a production version of the site, simply run:
 
 ```shell
 dart run build_runner build --release --output web:_site
