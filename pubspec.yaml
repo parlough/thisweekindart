@@ -6,11 +6,11 @@ environment:
   sdk: '>=2.17.0 <3.0.0'
 
 dev_dependencies:
-  build: ^2.3.0
-  build_runner: ^2.1.10
-  build_web_compilers: ^3.2.3
+  build: ^2.3.1
+  build_runner: ^2.3.2
+  build_web_compilers: ^3.2.7
   built_site:
     git:
       url: https://github.com/simolus3/built_site.git
       path: built_site
-  webdev: ^2.7.9
+  webdev: ^2.7.12
