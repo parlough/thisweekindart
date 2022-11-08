@@ -13,3 +13,7 @@ targets:
         - "website.yaml"
       exclude:
         - "pages/**/_*"
+
+additional_public_assets:
+  # This tells build_runner that these files are part of the default build
+  - "pages/**"
