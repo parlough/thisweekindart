@@ -17,13 +17,8 @@ in reverse historical order.
 {% endblock %}
 
 <div id="issues-index">
-    {% assign section = page_section %}
-    {% assign children = section.children | concat: section.pages | sortedByWeight %}
-
-    {% for child in children | reverse %}
-    {% if child == section.index %}
-    {% continue %}
-    {% endif %}
+    {% assign issues = 'package:thisweekindart/all.json' | readString | json_decode %}
+    {% for child in issues.issues | reverse %}
     {% assign page = child.index | default: child | pageInfo %}
     {% include "partials/issue-index-item.html" %}
     {% endfor %}
