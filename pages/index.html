@@ -31,12 +31,8 @@ on the [Unofficial Dart Community Discord](https://discord.gg/Qt6DgfAWWx).
 {% endblock %}
 
 <div id="issues-index">
-    {% assign section = 'issues/index.html' | sectionOf %}
-    {% assign children = section.children | concat: section.pages | sortedByWeight  %}
-    {% for child in children | reverse limit:6 %}
-    {% if child == section.index %}
-    {% continue %}
-    {% endif %}
+    {% assign issues = 'package:thisweekindart/all.json' | readString | json_decode %}
+    {% for child in issues.issues | reverse limit:6 %}
     {% assign page = child.index | default: child | pageInfo %}
     {% include "partials/issue-index-item.html" %}
     {% endfor %}

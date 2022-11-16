@@ -1,3 +1,11 @@
+builders:
+  :index_issues:
+    required_inputs: [".page_meta"]
+    import: "tool/index_issues.dart"
+    builder_factories: ["IndexIssues.new"]
+    runs_before: ["built_site"]
+    build_extensions: {"$package$": ["lib/all.json"]}
+
 targets:
   $default:
     sources:
@@ -13,6 +21,9 @@ targets:
         - "website.yaml"
       exclude:
         - "pages/**/_*"
+    builders:
+      :index_issues:
+        enabled: true
 
 additional_public_assets:
   # This tells build_runner that these files are part of the default build

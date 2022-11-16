@@ -14,6 +14,8 @@
             </article>
         </main>
 
-        {% include "partials/footer.html" %}
+        {% assign issues = 'package:thisweekindart/all.json' | readString | json_decode %}
+        {% assign sequence = issues.sequence | get: page.meta_id %}
+        {% include "partials/footer.html" prev = sequence.prev next = sequence.next %}
     </body>
 </html>

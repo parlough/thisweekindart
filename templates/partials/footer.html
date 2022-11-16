@@ -1,6 +1,14 @@
 <footer id="site-footer">
     <div id="footer-content" class="page-center">
         <a id="site-title" href="/">This Week in Dart</a>
+        <div>
+            {% if args.prev %}
+                <a href="{{ args.prev | pageUrl }}">Previous issue</a>
+            {% endif %}
+            {% if args.next %}
+                <a href="{{ args.next | pageUrl }}">Next issue</a>
+            {% endif %}
+        </div>
         <ul id="footer-list" class="page-center">
             <li><a href="https://dart.dev">Dart</a></li>
             <li><a href="/issues/">Issues</a></li>
