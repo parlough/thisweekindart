@@ -24,7 +24,7 @@ class IndexIssues extends Builder {
 
     await for (final page in pages) {
       final decoded = json.decode(await buildStep.readAsString(page));
-      final weight = decoded['frontMatter']['data']['weight'] ?? -1;
+      final weight = decoded['frontMatter']['data']['weight'] as int? ?? -1;
 
       final issue = ThisWeekInDartIssue(page, weight);
       issues.add(issue);
