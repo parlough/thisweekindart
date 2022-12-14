@@ -21,9 +21,19 @@ targets:
         - "website.yaml"
       exclude:
         - "pages/**/_*"
+        - "pages/atom.html"
     builders:
       :index_issues:
         enabled: true
+      built_site:
+        options:
+          emit_content_file: true
+
+  atom_feed:
+    dependencies: ["$default"]
+    sources:
+      include:
+        - pages/atom.*
 
 additional_public_assets:
   # This tells build_runner that these files are part of the default build

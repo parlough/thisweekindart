@@ -17,16 +17,19 @@ data:
   </rights>
   <updated>{{ built_site.config.build_time | default: (site.last_updated | append: 'T00:00:00Z') }}</updated>
 
-  {%- for child in children -%}
-    {%- if child != section.index -%}
-      {%- assign page = child | pageInfo %}
-      <entry>
-        <title>{{ page.data.title }}</title>
-        <link rel="alternate" type="text/html" href="{{ child | pageUrl }}" />
-        <id>{{ child | pageUrl }}</id>
-        <summary type="text">{{ page.data.description | default: page.data.title }}</summary>
-        <updated>{{ page.data.date }}T00:00:00Z</updated>
-      </entry>
-    {%- endif -%}
-  {% endfor %}
+  {%- assign issues = 'package:thisweekindart/all.json' | readString | json_decode -%}
+  {%- for entry in issues.issues offset: (issues.issues | length | minus: 3) reversed -%}
+    {%- assign page = entry | pageInfo %}
+    {%- assign contentId = entry | changeExtension: '.page_content' -%}
+    <entry>
+      <title>{{ page.data.title }}</title>
+      <link rel="alternate" type="text/html" href="{{ entry | pageUrl }}" />
+      <id>{{ entry | pageUrl }}</id>
+      <summary type="text">{{ page.data.description | default: page.data.title }}</summary>
+      <updated>{{ page.data.date }}T00:00:00Z</updated>
+      <content type="html">
+        <![CDATA[{{- contentId | readString -}}]]>
+      </content>
+    </entry>
+  {%- endfor -%}
 </feed>
