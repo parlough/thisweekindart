@@ -1,5 +1,7 @@
 name: thisweekindart
 description: thisweekindart.dev
+repository: https://github.com/parlough/thisweekindart
+homepage: https://thisweekindart.dev/
 publish_to: none
 
 environment:
