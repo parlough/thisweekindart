@@ -284,3 +284,17 @@ blockquote {
 cite {
   font-style: normal;
 }
+
+#next-prev {
+  display: flex;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+#next {
+  margin-left: auto;
+}
+
+#prev {
+  margin-right: auto;
+}

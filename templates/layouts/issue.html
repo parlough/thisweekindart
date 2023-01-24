@@ -12,10 +12,20 @@
                 </header>
                 {{ page.content }}
             </article>
-        </main>
 
-        {% assign issues = 'package:thisweekindart/all.json' | readString | json_decode %}
-        {% assign sequence = issues.sequence | get: page.meta_id %}
-        {% include "partials/footer.html" prev = sequence.prev next = sequence.next %}
+            {% assign issues = 'package:thisweekindart/all.json' | readString | json_decode %}
+            {% assign sequence = issues.sequence | get: page.meta_id %}
+            {% if sequence.prev or sequence.next %}
+            <div id="next-prev">
+                {% if sequence.prev %}
+                    <a id="prev" href="{{ sequence.prev | pageUrl }}">&larr; Previous issue</a>
+                {% endif %}
+                {% if sequence.next %}
+                    <a id="next" href="{{ sequence.next | pageUrl }}">Next issue &rarr;</a>
+                {% endif %}
+            </div>
+            {% endif %}
+        </main>
+        {% include "partials/footer.html" %}
     </body>
 </html>
