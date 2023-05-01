@@ -17,6 +17,9 @@
           { "key": "X-XSS-Protection", "value": "1;mode=block"}
         ]
       }
+    ],
+    "redirects": [
+      { "source": "/discord", "destination": "https://discord.gg/Qt6DgfAWWx", "type": 301 }
     ]
   }
 }
