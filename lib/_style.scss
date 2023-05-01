@@ -158,12 +158,22 @@ a {
 }
 
 #site-header {
+  position: sticky;
+  top: 0;
+  display: flex;
   min-height: 4rem;
   max-height: 8rem;
-  display: flex;
   align-items: center;
   background-color: var(--secondary-container-color);
   color: var(--on-secondary-container-color);
+}
+
+#site-banner {
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: var(--surface-variant-color);
+  color: var(--on-surface-variant-color);
 }
 
 #site-header-content {
